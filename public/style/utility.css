@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0px 0px 66px;
+}
+.container {
+    display: flex;
+    padding: 16px 0px;
+    
+}
+.navbar-right {
+    display: flex;
+    margin-left: 220px;
+    margin-right: auto;
+
+}
+.navbar-right a {
+    color: black;
+    box-sizing: border-box;
+    border: 0 solid;
+    padding: 10px 10px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+
+}
+.navbar-right a:hover {
+    color:black;
+    text-decoration: underline;
+    text-decoration-color: #7E22CE;
+}
+.navbar-left {
+    margin-left: 15px;
+}
+.navbar-left span{
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7E22CE;
+    text-align: left;
+    text-decoration: none;
+}
+.buttonsnav{
+    display: flex;
+    margin-left: 10px;
+}
+.login {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    color: azure;
+    font-weight: 600;
+    border: none;
+    background-color: #7E22CE;  
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-right: 10px;
+} 
+.signup{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    color: azure;
+    font-weight: 600;
+    border: none;
+    background-color: #7E22CE;  
+    border-radius: 0.5rem;
+    cursor: pointer;
+}  
+.childnav{
+    display: flex;
+    margin-top: 20px;
+    border: 1px solid;
+    border-color: rgb(232, 209, 253);
+    border-top-color: #d9aeff;
+} 
+.childmenu {
+    display: flex;
+    margin-left: 300px;
+    margin-right: auto;
+
+}
+.childmenu a {
+    color: #7E22CE;
+    display: block;
+    border: 0 solid;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+}
+.childmenu a:hover {
+    color:#7E22CE;
+    text-decoration: underline;
+    text-decoration-color: #7E22CE;
+}
+.svg{
+    margin-left: 15px;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7E22CE;
+    text-align: left;
+    text-decoration: none;
+}
+.search-container{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.search-input{
+    padding: 5px 2px;
+    background-color: #f6f5f7;  
+    border: none;
+    height: fit-content; 
+    width: fit-content;
+    text-align: left;
+    font-weight: 500;
+    font-size: large;
+    color: #070707;
+    border-radius: 5px;
+    cursor: pointer;
+    background: url('img.svg') no-repeat;
+    background-position: right 5px;
+    background-size: 25px;
+}
+.search-input::placeholder {
+    color: #999;
+}
+.search-input.clicked {
+    border: 2px solid #7E22CE;
+    cursor: text;
+}

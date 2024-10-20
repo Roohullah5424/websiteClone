@@ -1,0 +1,165 @@
+
+.heading {
+    color:#7E22CE;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    font-weight: 600;
+    padding: 32px 0px 0px;
+    margin: 0%;
+}
+
+.container-box{
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box{
+    flex: 1 1 33.33%;
+    box-sizing: border-box;
+    height: auto;
+    justify-content: center;
+    padding: 1rem;
+    
+    
+}
+@media (max-width: 768px) {
+    .box1 {
+        flex: 1 1 100%; /* Make items full-width on smaller screens */
+    }
+}
+.box-contents {
+    --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, .1), 0 4px 6px -4px rgba(0, 0, 0, .1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 24rem;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: none;
+    border-radius: 10px;
+}
+.text {
+    padding: 16px 24px;
+}
+.text h1 {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    display: flex;
+    margin-bottom: .75rem;
+}
+.text p{
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: #374151;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.box-button {
+    padding: 16px 24px 8px;
+}
+.box-button button{
+        color: rgb(255 255 255);
+        font-weight: 600;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-left: .75rem;
+        padding-right: .75rem;
+        background-color: rgb(126 34 206);
+        border: none;
+        border-radius: 9999px;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+}
+.box-button :hover{
+    background-color: rgb(187, 110, 255);
+    
+}
+.heading2 {
+    color:#7E22CE;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    text-align: center;
+    font-weight: 600;
+    margin: 32px 0px 0px;
+}
+.container-footer {
+    display: flex;
+    padding: 16px 20px;
+}
+.left {
+    display: flex;
+    align-items: center;
+}
+.left img{
+    width: 48px;
+    height: 48px;
+}
+.logo-name {
+    margin: 0px 0px 0px 12px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-style:normal;
+    font-weight: 500;
+}
+.center {
+    margin-top: .5rem;
+    margin-bottom: 0;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    --tw-border-opacity: 1;
+    border-left: 1px solid;
+    border-color: rgb(229 231 235 / var(--tw-border-opacity));
+    border-left-width: 2px;
+
+    margin-left: 1rem;
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-align: left;
+}
+.right {
+    margin: 0px 0px 0px 570.844px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+}
+.facebook-icon svg {
+    fill: #4267B2; /* Facebook blue */
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+}
+.twitter {
+    fill: #105ffc;
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+}
+.instagram {
+    fill: #f888bc;
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+}
+.github {
+    fill: #1e1e1f;
+    width: 30px;
+    height: 30px;
+    padding-right: 7px;
+}
